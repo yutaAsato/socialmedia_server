@@ -1,0 +1,23 @@
+{
+  "name": "socialmedia_server",
+  "version": "1.0.0",
+  "description": "REST API server for the socialMediaApp-client built using node.js/express.js. Authentication handled using JWT (JSON web token) and password hashing with Bcrypt. The API queries a PostgreSQL database using node-postgres modules, including a connection pool, and responds to the client with JSON data.",
+  "main": "admin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.95.11",
+    "nodemon": "^2.0.12",
+    "pg": "^8.7.1"
+  }
+}
